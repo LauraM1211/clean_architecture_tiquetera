@@ -1,19 +1,13 @@
 {
   "name": "clean_architecture_tiquetera",
   "version": "1.0.0",
-  "description": "ap clena architecture",
-  "keywords": [
-    "clean",
-    "architecture",
-    "tiquetera"
-  ],
+  "description": "Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Laura Mosquera",
   "license": "ISC",
-  "main": "app",
+  "main": "app.js",
   "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
