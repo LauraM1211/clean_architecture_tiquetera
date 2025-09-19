@@ -4,11 +4,11 @@
   "description": "Project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app"
   },
   "author": "Laura Mosquera",
   "license": "ISC",
-  "main": "app.js",
+  "main": "app",
   "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
