@@ -1,7 +1,12 @@
 {
   "name": "clean_architecture_tiquetera",
   "version": "1.0.0",
-  "description": "Project",
+  "description": "ap clena architecture",
+  "keywords": [
+    "clean",
+    "architecture",
+    "tiquetera"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
