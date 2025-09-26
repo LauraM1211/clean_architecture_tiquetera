@@ -10,7 +10,7 @@ const TiqueteraSchema = new mongoose.Schema({
 
 const TiqueteraModel = mongoose.model("Tiquetera", TiqueteraSchema); //creamos el modelo de la base de datos
 
-class tiqueteraRepositoryMongo {
+class TiqueteraRepositoryMongo {
     async create(tiqueteraData) {
         const user = new TiqueteraModel(tiqueteraData);
         return await user.save();
@@ -33,4 +33,4 @@ class tiqueteraRepositoryMongo {
     }
 }
 
-export default tiqueteraRepositoryMongo;
+export default TiqueteraRepositoryMongo;
